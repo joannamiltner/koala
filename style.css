@@ -1,5 +1,5 @@
 body{
-    background: #25A9FC;
+    background: rgb(98, 163, 223);
 }
 
 .box{
@@ -19,7 +19,7 @@ body{
     width: 50%;
     height: 57%;
     background: #A6Becf;
-    border-radius: 50%;
+    border-radius: 50% / 60% 60% 30% 30%;
 }
 
 .head_copy{
@@ -27,16 +27,16 @@ body{
     height: 100%;
     position: absolute;
     background: #A6Becf;
-    border-radius: 50%;
+		border-radius: 50% / 60% 60% 30% 30%;
     z-index: 2;
 }
 
 .ear_left{
     position: absolute;
     width: 60%;
-    height: 55%;
+    height: 50%;
     left: -15%;
-    top: 30%;
+    top: 25%;
     background: #A6Becf;
     border-radius: 50%;
     z-index: 1;
@@ -45,13 +45,14 @@ body{
 .ear_right{
     position: absolute;
     width: 60%;
-    height: 55%;
+    height: 50%;
     right: -15%;
-    top: 30%;
+    top: 25%;
     background: #A6Becf;
     border-radius: 50%;
     z-index: 1;
 }
+
 .inner_ear{
     position: absolute;
     border-radius: 50%;
@@ -114,6 +115,7 @@ body{
     border-radius: 45%;
     z-index: 3;
 }
+
 .nose{
     position: absolute;
     background: #BE845F;
@@ -121,10 +123,9 @@ body{
     height: 20%;
     left: 45%;
     top: 50%;
-    border-radius: 20px;
+    border-radius: 50% / 60% 60% 30% 30%;
     z-index: 4;
 }
-
 
 .hair{
     position: absolute;
